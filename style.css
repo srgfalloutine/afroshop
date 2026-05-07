@@ -1041,7 +1041,7 @@ footer {
   align-items: center;
   height: 500px;
   justify-content: center;
-  padding-top: 80px;
+  margin-top: 80px;
   h1 {
     color: #ffffff;
     text-align: center;
@@ -1199,6 +1199,7 @@ footer {
     padding: 100px 20px 50px;
     text-align: center;
     height: 280px;
+    margin-top: 75px;
   }
   .prodpres h1 {
     font-size: 32px;
