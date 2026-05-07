@@ -164,14 +164,16 @@ span {
       rgba(17, 24, 39, 0.72) 40%,
       rgba(146, 64, 14, 0.45) 100%
     ),
-    url("https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1400&q=80")
-      center/cover no-repeat;
-  /* margin-bottom: 50px; */
+    url("https://i.pinimg.com/736x/fc/3d/6f/fc3d6f76f2c567bbe6f4af3f43f0645c.jpg");
+      background-size: cover;
+      background-position: center;
+     
+      background-repeat: no-repeat;
   display: flex;
   padding-left: 50px;
   align-items: center;
-  height: 500px;
-  margin-top: 50px;
+  height: 600px;
+  margin-top: 80px;
 }
 .herocontent {
   color: #fff;
@@ -623,11 +625,11 @@ footer {
   }
   .hero h1,
   .herocontent h1 {
-    font-size: 2rem;
+    font-size: 40px;
   }
 
   .hero p {
-    font-size: 0.92rem;
+    font-size: 15px;
     max-width: 100%;
     margin-inline: auto;
   }
@@ -1340,7 +1342,7 @@ footer {
 }
 .imginspi {
   width: 50%;
-  height: 450px;
+  height: 500px;
   border-radius: 20px;
 }
 .inspiafrotext {
@@ -1358,7 +1360,7 @@ footer {
 }
 .imgtissu {
   width: 55%;
-  height: 400px;
+  height: 500px;
   border-radius: 20px;
 }
 .qualitissutext {
@@ -1376,7 +1378,7 @@ footer {
 }
 .imgcretlocaux {
   width: 50%;
-  height: 450px;
+  height: 500px;
   border-radius: 20px;
 }
 .cretlocauxtext {
@@ -1401,7 +1403,7 @@ footer {
 }
 .imgelmod {
   width: 50%;
-  height: 490px;
+  height: 500px;
   border-radius: 20px;
 }
 /* RESPONSIVE PAGE A PROPOS */
