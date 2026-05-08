@@ -1621,6 +1621,9 @@ button{
     width: 90%;
     
   }
+  select {
+    text-align: center;
+  }
 
   button{
     width: 100%;
@@ -1630,5 +1633,10 @@ button{
 @media (min-width: 768px) and (max-width: 1024px) {
 .leform{
   width: 90%;
+  
 }
+select{
+  text-align:center;
+}
+
 }
