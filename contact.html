@@ -38,28 +38,57 @@
       
     </div>
   </nav>
+<section class="herocontact">
+  
+</section>
+
+  <section class="leform">
+    <h2>FORMULAIRE DE COMMANDE</h2>
+
+    <form  action="/envoyer" method="post">
+ <label for="nomcomplet">Nom Complet  <span style="color: red;">*</span>  </label>
+  <input type="text" id="prenom"  placeholder="Ex: Serigne Fallou TINE" required>
+
+<label for="email">Address Mail <span style="color: red;">*</span></label>
+<input type="mail" id="mail" placeholder="Votre mail" required >
+
+<label for="phone">Téléphone <span style="color: red;">*</span></label>
+<input type="tel" id="tel" placeholder="(+221) 77 822 91 33" required>
+
+<label for="produit">Produit souhaité <span style="color: red;">*</span></label>
+<select name="produit" required>
+ <option value="choix">Vos choix</option>
+  <option value="Robe">Robe</option>
+  <option value="chemise">Chemise wax</option>
+  <option value="boubou">Grand boubou</option>
+  <option value="autre">Autre</option>
+</select> 
+
+<label for="taille">Taille</label>
+<select name="taille" id="tail"><option value="xl">XL</option>
+<option value="xxl">XXL</option>
+<option value="l">L</option>
+<option value="s">S</option>
+<option value="M">M</option>
+</select>
+
+
+<label for="coleur">Couleur préféré <span style="color: red;">*</span></label>
+<input type="text" placeholder="Votre colleur préféré " required>
 
 
 
+<label for="message">Message  <span style="color: red;">*</span></label>
+<textarea
+placeholder="Décrivez votre commande, précisez les motifs souhaités, les mesures pour du sur-mesure, ou posez-nous vos questions…" required>
+</textarea>
 
+ <button type="submit" >
+              Envoyer ma commande
+            </button>
+    </form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </section>
 
 
   <!-- Le pied de page -->

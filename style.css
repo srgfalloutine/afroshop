@@ -172,7 +172,7 @@ span {
   display: flex;
   padding-left: 50px;
   align-items: center;
-  height: 600px;
+  height: 450px;
   margin-top: 80px;
 }
 .herocontent {
@@ -809,7 +809,7 @@ footer {
 /* PAGE COLLECTION */
 .collectionhero {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-position: center;
   background:
     linear-gradient(
@@ -1039,7 +1039,7 @@ footer {
   display: flex;
   padding-left: 50px;
   align-items: center;
-  height: 500px;
+  height: 400px;
   justify-content: center;
   margin-top: 80px;
   h1 {
@@ -1457,8 +1457,8 @@ footer {
     padding: 0 10px;
   }
   .lesvaleurs {
-    width: 80%;
-    border-radius: 16px 16px 0 0;
+    width: 90%;
+    border-radius: 20px 20px 0 0;
   }
   .inspiafro,
   .qualitissu,
@@ -1534,4 +1534,101 @@ footer {
   .imgelmod {
     height: 400px;
   }
+}
+
+
+/* PAGE CONTACT */
+.herocontact {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(17, 24, 39, 0.72) 40%,
+      rgba(146, 64, 14, 0.45) 100%
+    ),
+    url(https://i.pinimg.com/1200x/08/06/44/0806446808885c93997f268d57827f01.jpg)
+      center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 7px black;
+  margin-bottom: 30px;
+}
+.leform{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  background-color: #FEF3C7;
+  border-radius: 100px 100px 0px 0px;
+  padding: 30px;
+  h2{
+    margin-bottom: 20px;
+  }
+
+}
+form{
+  width: 90%;
+  display: grid;
+ 
+}
+input{
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+select{
+   height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+textarea{
+    height: 70px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+    font-family: poppins, arial, sans-serif;
+  color: #1f2937;
+}
+button{
+  width: 40%;
+  padding: 20px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #92400e;
+  border: none;
+  margin-top: 10px;
+}
+/* RESPONSIVE PAGE CONTACT */
+/* téléphone */
+@media (max-width:760px){
+    .herocontact {
+    height: 250px;
+    margin-top: 62px;
+    margin-bottom: 20px;}
+
+  .leform{
+    width: 90%;
+    
+  }
+
+  button{
+    width: 100%;
+  }
+}
+/* tablette */
+@media (min-width: 768px) and (max-width: 1024px) {
+.leform{
+  width: 90%;
+}
 }
