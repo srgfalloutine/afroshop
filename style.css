@@ -1625,7 +1625,7 @@ button{
     align-items: center;
     
   }
-<<<<<<< HEAD
+
   label{
     font-size: 22px;
   }
@@ -1643,10 +1643,6 @@ button{
   }
   textarea{
     height: 100px;
-=======
-  select {
-    text-align: center;
->>>>>>> a59bfa15eb32de2f083cfcc1f234621719fb9c96
   }
 
   button{
@@ -1662,7 +1658,7 @@ button{
   width: 90%;
   
 }
-<<<<<<< HEAD
+
  label{
     font-size: 26px;
   }
@@ -1693,4 +1689,4 @@ height: 60px;
 
 
 /* FIIIIIIIIIIINNNNNNNNNNNNNNNNN  */
-=======
+
