@@ -528,6 +528,21 @@ footer {
   }
   width: 20%;
 }
+.Reseaux{
+  display: flex;
+  gap: 20px;
+  margin: 15px;
+}
+.Reseaux a{
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  
+}
+
+
+
+
 
 .lienpdp {
   margin-top: 20px;
