@@ -202,12 +202,12 @@ span {
 }
 .btnDECOUV {
   background-color: #92400e;
-
+ transition: 0.3s;
   border-radius: 10px 10px 10px 10px;
   color: #fff;
   font-family: poppins, arial, sans-serif;
   padding: 13px 20px;
-  border: #92400e 1px solid;
+ 
 }
 .herobtns a {
   color: #ffffff;
@@ -218,9 +218,10 @@ span {
   gap: 20px;
 }
 .btnDECOUV:hover {
-  background-color: transparent;
-  color: white;
-  border: #92400e 2px solid;
+  background-color: white;
+  color: #92400e;
+  /*  */
+   transform: scale(1.15);
 }
 .btnCTN {
   background-color: transparent;
@@ -229,12 +230,15 @@ span {
   color: #fff;
   font-family: poppins, arial, sans-serif;
   border: #fff 1px solid;
+  transition: 0.3s;
+
 }
 
 .btnCTN:hover {
   background-color: #ffffff;
   color: #92400e;
   border-color: transparent;
+  transform: scale(1.15);
 }
 .presrapide {
   background-color: #fef3c7;
@@ -315,7 +319,7 @@ span {
 }
 .carteproduit:hover{
   transform: scale(1.1);
-  gap: 20px;
+  
 }
 .badge {
   background-color: #d97706;
@@ -713,10 +717,16 @@ footer {
   .containerdescartes {
     flex-direction: column;
     padding: 16px;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
   }
   .carteproduit {
     width: 100%;
+    transition: 0.3s;
+  }
+  .carteproduit:hover{
+    transform: scale(1.1);
   }
   .imageproduit2,
   .imageproduit3,
@@ -749,10 +759,18 @@ footer {
   .logopdp {
     width: 100%;
   }
+ 
+
+
+
+
+  
   .lienpdp {
     width: 100%;
     text-align: left;
+    
   }
+  
   .hrpdp {
     margin: 6px 0 10px;
   }
@@ -883,8 +901,12 @@ footer {
   margin-bottom: 30px;
 }
 .carteproduitcol {
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
   border-radius: 20px;
+  transition: 0.3s;
+}
+.carteproduitcol:hover{
+  transform: scale(1.05);
 }
 .colproduit1 {
   border-radius: 20px;
@@ -896,7 +918,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 .colproduit2 {
   border-radius: 20px;
@@ -969,10 +991,11 @@ footer {
 }
 .button {
   background-color: #92400e;
-  padding: 15px 15px;
+  padding: 10px 5px;
   border-radius: 40px;
   border: 2px solid #92400e;
   margin-top: 10px;
+  transition: 0.3s;
 }
 .btncomtext {
   text-decoration: none;
@@ -985,6 +1008,7 @@ footer {
 .button:hover {
   background-color: transparent;
   color: #92400e;
+  transform: scale(1.05);
 }
 /* RESPONSIVE PAGE COLLECTION */
 /* telephone */
@@ -1088,17 +1112,21 @@ footer {
   }
 }
 .lesproduits {
-  margin-top: 20px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 40px;
   justify-content: space-around;
   padding-inline: 20px;
   margin-bottom: 30px;
 }
 .carteprod {
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
   border-radius: 20px;
+  transition: 0.3s;
+}
+.carteprod:hover{
+  transform: scale(1.1);
 }
 .produit1 {
   border-radius: 20px;
@@ -1110,7 +1138,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+  box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 
 .produit2 {
@@ -1123,7 +1151,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 
 .produit3 {
@@ -1136,7 +1164,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 
 .produit4 {
@@ -1149,7 +1177,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 .produit5 {
   border-radius: 20px;
@@ -1161,7 +1189,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 .produit6 {
   border-radius: 20px;
@@ -1173,7 +1201,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 .produit7 {
   border-radius: 20px;
@@ -1185,7 +1213,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 
 .produit8 {
@@ -1198,7 +1226,7 @@ footer {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  box-shadow: 4px 4px 8px black;
+ box-shadow: 4px 4px 8px rgb(116, 116, 116);
 }
 .cmdprdt {
   display: flex;
@@ -1208,20 +1236,21 @@ footer {
 }
 .passercmd {
   background-color: #92400e;
-  padding: 20px 30px;
+  padding: 20px 20px;
   border-radius: 30px;
   color: #fff;
   font-family: poppins, arial, sans-serif;
   text-decoration: none;
-  /* margin-bottom: 20px; */
+  
   font-weight: 600;
-
-  box-shadow: 4px 5px 7px black;
+transition: 0.3s;
+  box-shadow: 4px 5px 7px rgb(54, 53, 53);
 }
 .cmdprdt a:hover {
   color: #92400e;
   background-color: transparent;
   border: 2px solid #92400e;
+  transform: scale(1.15);
 }
 /* RESPONSIVE PAGE PRODUIT */
 /* telephone */
@@ -1608,12 +1637,18 @@ form{
   display: grid;
  
 }
+label{
+  font-size: 25px;
+  font-weight: 50;
+}
 input{
   height: 40px;
   border-radius: 10px;
   border: none;
   text-align: center;
   margin-bottom: 10px;
+  font-size: 16px;
+  color: #111827;
 }
 select{
    height: 40px;
@@ -1621,6 +1656,8 @@ select{
   border: none;
   text-align: center;
   margin-bottom: 10px;
+   font-size: 16px;
+  color: #111827;
 }
 textarea{
     height: 70px;
@@ -1639,6 +1676,8 @@ button{
   background-color: #92400e;
   border: none;
   margin-top: 10px;
+   font-size: 18px;
+ 
 }
 /* RESPONSIVE PAGE CONTACT */
 /* téléphone */
@@ -1671,6 +1710,7 @@ button{
   }
   select{
     padding-left: 10px;
+    background-color: white;
   }
   textarea{
     height: 100px;
