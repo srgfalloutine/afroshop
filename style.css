@@ -299,16 +299,24 @@ span {
   color: #000000;
   font-family: "Playfair Display", GEORGIA, serif;
 }
+.containerdescartes{
+  width: 100%;
+}
 .carteproduit {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   padding: 1px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 33%;
+  width: 24%;
   border-radius: 15px;
   height: auto;
+  transition: 0.3s;
+  justify-content: space-around;
 }
-
+.carteproduit:hover{
+  transform: scale(1.1);
+  gap: 20px;
+}
 .badge {
   background-color: #d97706;
 
@@ -478,7 +486,7 @@ hr {
   margin-bottom: 30px;
 }
 .avantage {
-  width: 33%;
+  width: 30%;
   height: 200px;
   background-color: #ffffff;
   border-radius: 20px;
@@ -487,6 +495,10 @@ hr {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  transition: 0.3s;
+}
+.avantage:hover{
+  transform: scale(1.15);
 }
 .avantage h2 {
   color: #111827;
@@ -537,9 +549,13 @@ footer {
   color: white;
   text-decoration: none;
   font-size: 35px;
-  
+  transition: 0.3s;
 }
-
+.Reseaux a:hover{
+  transform: scale(1.15);
+  background-color: #92400e;
+  border-radius: 10px;
+}
 
 
 
