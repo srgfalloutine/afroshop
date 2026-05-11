@@ -221,7 +221,7 @@ span {
   background-color: white;
   color: #92400e;
   /*  */
-   transform: scale(1.15);
+   transform: scale(1.05);
 }
 .btnCTN {
   background-color: transparent;
@@ -238,7 +238,7 @@ span {
   background-color: #ffffff;
   color: #92400e;
   border-color: transparent;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 .presrapide {
   background-color: #fef3c7;
