@@ -502,7 +502,7 @@ hr {
   transition: 0.3s;
 }
 .avantage:hover{
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 .avantage h2 {
   color: #111827;
@@ -1115,7 +1115,7 @@ footer {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 30px;
   justify-content: space-around;
   padding-inline: 20px;
   margin-bottom: 30px;
@@ -1126,7 +1126,7 @@ footer {
   transition: 0.3s;
 }
 .carteprod:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 .produit1 {
   border-radius: 20px;
