@@ -14,6 +14,7 @@ h6 {
 p {
   font-family: poppins, arial, sans-serif;
   color: #1f2937;
+ 
 }
 html {
   scroll-behavior: smooth;
@@ -73,13 +74,7 @@ span {
   transition: color 0.3s ease;
   font-family: poppins, arial, sans-serif;
 }
-.btncontact {
-  background-color: #92400e;
-  padding: 8px 15px;
-  border-radius: 10px 0px 10px 0px;
-  color: #fff;
-  font-family: poppins, arial, sans-serif;
-}
+
 
 .navlinks a:hover {
   color: #92400e;
@@ -220,7 +215,6 @@ span {
 .btnDECOUV:hover {
   background-color: white;
   color: #92400e;
-  /*  */
    transform: scale(1.05);
 }
 .btnCTN {
@@ -1035,7 +1029,7 @@ footer {
   .colproduit4,
   .colproduit5,
   .colproduit6 {
-    height: 500px;
+    height: 500px;   
   }
   .commendel {
     padding: 40px 20px;
@@ -1681,11 +1675,12 @@ button{
 }
 /* RESPONSIVE PAGE CONTACT */
 /* téléphone */
-@media (max-width:760px){
+@media (max-width:767px){
     .herocontact {
     height: 250px;
     margin-top: 62px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+  }
 
   .leform{
     width: 90%;
